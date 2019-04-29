@@ -19,6 +19,6 @@ Please read through our site to learn more about our wedding. You can RSVP using
 <img src="{{ '/images/death_valley.jpg' | absolute_url }}" alt="Picture of Jennifer and Eamon">
 
 {:.no-list}
-* Photo Caption Line 1
-* Photo Caption Line 2
+* Death Valley, CA
+* February 2019
 </div>

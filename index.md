@@ -4,94 +4,27 @@ title: "Home"
 class: home
 ---
 
-# Hi, I'm Dominik Moritz
+# Jennifer and Eamon's Wedding
 
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm a PhD candidate in the [Paul G. Allen School](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/). I work with [Jeff Heer](https://homes.cs.washington.edu/~jheer/) and [Bill Howe](https://homes.cs.washington.edu/~billhowe/) in the [Interactive Data Lab](http://idl.cs.washington.edu/) and the [Database Group](https://db.cs.washington.edu/).
+We're pleased to invite you to our wedding ceremony on August 24, 2019 in Seattle, Washington.
 
-I research scalable interactive systems for visualization and analysis. My systems have won awards at premier academic venues and are used by the [Python](https://altair-viz.github.io) and [JavaScript](https://vega.github.io/vega-lite/) data science communities.
-
-<span style="color:firebrick; font-weight: 500; font-size: 0.9em;">I am on the tenure faculty market this year. To learn more about my research, please read my <a href="{{ '/assets/dominik_research_statement.pdf' | absolute_url }}" style="color:firebrick; text-decoration: underline;">research statement</a>.</span>
-</div>
+Please read through our site to learn more about our wedding. You can RSVP using the link above. If you have any questions, please feel free to contact us using the link above.
 
 <div class="me" markdown="1">
-<img src="{{ '/images/dominik_berlin.jpg' | absolute_url }}" alt="Image of me">
+<img src="{{ '/images/death_valley.jpg' | absolute_url }}" alt="Picture of Jennifer and Eamon">
 
 {:.no-list}
-* <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-* [Paul G. Allen Center](http://www.washington.edu/maps/?q=cse) Room [486](https://norfolk.cs.washington.edu/directory/index.php?prev_floor=4&show_room=CSE486)
+* Photo Caption Line 1
+* Photo Caption Line 2
 </div>
 
 </div>
 
-During my first year at UW, I received support from the [Fulbright program](https://en.wikipedia.org/wiki/Fulbright_Program). In 2013, I received my B.S. from [Hasso Plattner Institute](https://hpi.de/). I am a scholar of the [German National Academic Foundation](http://www.studienstiftung.de/). I have worked with the [Open Knowledge Foundation](http://www.okfn.org), [Google Research](https://ai.google/research/), and [Microsoft Research](https://www.microsoft.com/en-us/research/group/vibe/). Details are in my [CV]({{ "/cv/" | relative_url }}).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Featured Projects
 
-<div class="featured-projects">
-  {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
-  {% for project in sorted_projects %}
-    {% if project.highlight %}
-      {% include project.html project=project %}
-    {% endif %}
-  {% endfor %}
-</div>
-<a href="{{ "/projects/" | relative_url }}" class="button">
-  <i class="fas fa-chevron-circle-right"></i>
-  Show More Projects
-</a>
 
-## Featured Publications
 
-<div class="featured-publications">
-  {% for pub in site.data.publications %}
-    {% if pub.highlight %}
-      <a href="{{ pub.pdf }}" class="publication">
-        <strong>{{ pub.title }}</strong>
-        <span class="authors">{% for author in pub.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>.
-        <i>{{ pub.venue }}, {{ pub.year }}</i>.
-        {% for award in pub.awards %}<br/><span class="award"><i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</span>{% endfor %}
-      </a>
-    {% endif %}
-  {% endfor %}
-</div>
-
-<a href="{{ "/publications/" | relative_url }}" class="button">
-  <i class="fas fa-chevron-circle-right"></i>
-  Show All Publications
-</a>
-
-<div class="news-travel" markdown="1">
-
-<div class="news" markdown="1">
-## News
-
-<ul>
-{% for news in site.data.news %}
-  {% include news.html news=news %}
-{% endfor %}
-</ul>
-
-</div>
-
-<div class="travel" markdown="1">
-## Travel
-
-<table>
-<tbody>
-{% assign future_travel = site.data.travel | where_exp:'item','item.start == null' %}
-{% for travel in future_travel %}
-  {% include travel.html travel=travel %}
-{% endfor %}
-{% assign sorted_travel = site.data.travel | where_exp:'item','item.start' | sort: 'start' | reverse %}
-{% for travel in sorted_travel %}
-  {% include travel.html travel=travel %}
-{% endfor %}
-</tbody>
-</table>
-
-</div>
-
-</div>

@@ -1,0 +1,251 @@
+---
+permalink: /contact/
+title: Contact Us
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="application-name" content="{{ site.title }}">
+    <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}"/>
+    <link rel="icon" type="image/jpeg" href="{{ '/favicon.png' | relative_url }}" sizes="250x250" />
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+    <style>
+      html, body {
+        font-family: Merriweather, Georgia, serif;
+        font-size: 12px;
+        background-color: white;
+      }
+
+      b, strong {
+        font-weight: 600;
+      }
+
+      /* It's not good to hide links but looks better in a CV. */
+      a {
+        color: #333;
+      }
+
+      h1, h2, h3, h4 {
+        font-weight: 500;
+        border: none;
+        color: #333;
+        font-family: Fira Sans, Halvetica Neue, sans-serif;
+        page-break-after: avoid;
+      }
+
+      h1, h2, .pub-type {
+        color: #0A656C;
+        margin: 1em 0 .2em 0;
+      }
+
+      h1 {
+        font-size: 2.7em;
+      }
+
+      h2 {
+        font-size: 2.3em;
+      }
+
+      h2 a {
+        font-size: 0.7em;
+        color: #828282;
+      }
+      .live-link {
+        margin-bottom: 1em;
+        display: none;
+        opacity: 0.8;
+      }
+
+      .header-columns {
+        display: flex;
+        flex-direction: row;
+      }
+      .header-columns > div:first-child {
+        flex: 1;
+      }
+      .header-columns > div:last-child {
+        width: 200px;
+      }
+
+      h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.2em;
+        font-weight: 500;
+      }
+
+      h4 {
+        margin: 0;
+        font-size: 1.2em;
+        font-weight: 500;
+      }
+
+      .pub-type {
+        font-size: 1.3em;
+        margin-bottom: 0.4em;
+      }
+
+      .cv-pub h4 {
+        font-size: 1.2em;
+      }
+
+      .right-align {
+        text-align: right;
+      }
+
+      .cv-pub {
+        margin-bottom: 1.2em;
+      }
+
+      .muted, .muted a {
+        color: #666;
+      }
+
+      .award {
+        color: firebrick;
+        white-space: nowrap;
+      }
+
+      ul {
+        list-style: none;
+        margin-left: 0;
+      }
+
+      .container {
+        min-width: 480px;
+        max-width: 800px;
+      }
+
+      .container > * {
+        margin-left: 105px;
+      }
+
+      article {
+        margin-left: 0 !important;
+      }
+
+      article > * {
+        margin-left: 105px;
+      }
+
+      .ref-container {
+        margin-left: 0;
+        float: left;
+        text-align: right;
+        width: 85px;
+      }
+
+      .date-container {
+        width: 100%;
+        margin-left: 0 !important;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+      }
+
+      .date-container h3, .date-container .fill {
+        flex: 1;
+      }
+
+      .cv-talk-title {
+        margin-top: 1.2em;
+      }
+
+      .date-container .date, .date-container time {
+        display: block;
+        width: 85px;
+        text-align: right;
+        padding-right: 20px;
+        flex-shrink: 0;
+      }
+
+      .date-container .right {
+        padding-left: 10px;
+        color: #828282;
+        font-size: .9em;
+      }
+
+      /* References */
+
+      .refs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .refs > p {
+        width: 50%;
+      }
+
+      /* Link back to homepage */
+
+      .back {
+        font-family: sans-serif;
+        min-width: 480px;  /* same as container */
+        padding: 0.6em 1em;
+        background-color: #666;
+        color: #fff;
+      }
+
+      .back a {
+        color: #fff;
+        font-size: 1.1em;
+        font-weight: 600;
+      }
+
+      .back a:hover {
+        text-decoration: none;
+      }
+
+      @media print {
+        @page {
+          size: portrait;
+          margin: 12mm 12mm 12mm 12mm;
+        }
+
+        body {
+          margin: 0;
+          font-size: 11px;
+        }
+
+        .no-print, .no-print * {
+          display: none !important;
+        }
+
+        .live-link {
+          display: block;
+        }
+
+        h1, h2 {
+          margin: .4em 0 .1em 0;
+        }
+
+        /* link to interactive talk/publications */
+        h2 a {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="no-print back">
+      ◄ <a href="{{ absolute_url }}/">Back to our Homepage</a>
+    </div>
+
+    <div class="page-content">
+      <section class="container">
+
+  </body>
+</html>

@@ -21,4 +21,5 @@ Please read through our site to learn more about our wedding. You can RSVP using
 {:.no-list}
 * Death Valley, CA
 * February 2019
+* The wedding will not be here.
 </div>

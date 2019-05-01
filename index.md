@@ -18,6 +18,7 @@ Please RSVP by June 24.
 
 <div class="me" markdown="1">
 <img src="{{ '/images/death_valley.jpg' | absolute_url }}" alt="Picture of Jennifer and Eamon">
+
 {:.no-list}
 
 * Death Valley, CA

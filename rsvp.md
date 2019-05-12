@@ -4,6 +4,9 @@ permalink: /rsvp/
 title: RSVP
 ---
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="/form.js"></script>
+
 <style>
 input[type=text], select {
   width: 100%;
@@ -41,10 +44,10 @@ div {
 <form action="https://getform.io/f/0cff5cfd-5ab5-4d3c-8f95-50be1ec60926" method="POST">
 
     <label for="name">Your Name</label>
-    <input type="text" id="name" name="name">
+    <input type="text" id="name" name="name" size="30">
     
     <label for="coming">Will you/your party be able to attend?</label>
-    <input type="radio" id="coming" name="coming" value="yes" checked> Yes!<br>
+    <input type="radio" id="coming" name="coming" value="yes" checked> Yes! 
     <input type="radio" name="coming" value="no"> No.<br>
     
     <label for="quantity">How many guests are in your party?</label>

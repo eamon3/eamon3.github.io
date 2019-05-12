@@ -3,7 +3,7 @@
   <nav class="container">
     <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
 
-    <a href="{{ '/projects/' | relative_url }}" {% if current[1] == 'projects' %}class="active"{% endif %}>Projects</a>
+    <a href="{{ '/details/' | relative_url }}" {% if current[1] == 'projects' %}class="active"{% endif %}>Details</a>
     <a href="{{ '/publications/' | relative_url }}" {% if current[1] == 'publications' %}class="active"{% endif %}>Publications</a>
     <a href="{{ '/talks/' | relative_url }}" {% if current[1] == 'talks' %}class="active"{% endif %}>Talks</a>
     <a href="{{ '/rsvp/' | relative_url }}" {% if current[1] == 'rsvp' %}class="active"{% endif %}>RSVP</a>

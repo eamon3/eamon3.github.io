@@ -4,6 +4,19 @@ permalink: /rsvp/
 title: RSVP
 ---
 
+<form action="https://getform.io/f/0cff5cfd-5ab5-4d3c-8f95-50be1ec60926" method="POST">
+
+    <input type="text" name="name">
+    <input type="radio" name="coming" value="yes" checked> Yes, I'll be there!<br>
+    <input type="radio" name="coming" value="no"> Sorry, I can't make it.<br>
+    <input type="number" name="quantity" min="1" max="5">
+    <input type="email" name="email">
+    <input type="tel" name="tel">
+    <button type="submit">Send</button>
+
+</form>
+
+
 {% include search.html %}
 
 <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | absolute_url }}">via RSS</a></p>

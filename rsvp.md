@@ -63,9 +63,13 @@ div {
     <input type="radio" id="diet" name="diet" value="yes" checked> Yes<br>
     <input type="radio" name="diet" value="no"> No<br>
     
-    <input type="submit">Submit!</button>
+    <input type="submit" value="Submit!">
 
 </form>
+</div>
+
+<div id="form1">
+<!-- Dynamic Form Div -->
 </div>
 
 {% include search.html %}

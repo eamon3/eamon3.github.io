@@ -4,92 +4,54 @@ permalink: /rsvp/
 title: RSVP
 ---
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 <script src="/form.js"></script>
 
-<style>
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-</style>
-
-<div>
-<form action="https://getform.io/f/0cff5cfd-5ab5-4d3c-8f95-50be1ec60926" method="POST">
-
-    <label for="name">Your Name</label>
-    <input type="text" id="name" name="name" size="30">
+<form class="pure-form-stacked" action="https://getform.io/f/0cff5cfd-5ab5-4d3c-8f95-50be1ec60926" method="POST">
+    <div id="BasicInfo">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name">
+      <br>
+      <label for="coming">Will you/your party be able to attend?</label>
+      <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)"> Yes! 
+      <input type="radio" name="coming" id="coming" value="no" onclick="partyComing(0)"> No.
+      <br><br>
+      </div>
     
-    <label for="coming">Will you/your party be able to attend?</label>
-    <input type="radio" id="coming" name="coming" value="yes" checked> Yes! 
-    <input type="radio" name="coming" value="no"> No.<br>
-    
-    <label for="quantity">How many guests are in your party?</label>
-    <input type="number" id="quantity" name="quantity" min="1" max="5">
-    
-    <label for="email">What is your email address?</label>
-    <input type="email" id="email" name="email">
-    
-    <label for="tel">What is a phone number we can use to reach you on the day of the wedding?</label>
-    <input type="tel" name="tel" id="tel">
-    
-    <label for="diet">Does anyone in your party have dietary restrictions?</label>
-    <input type="radio" id="diet" name="diet" value="yes" checked> Yes<br>
-    <input type="radio" name="diet" value="no"> No<br>
-    
+    <div id="additionalDetails" style="display:none">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="tel">Phone Number</label>
+      <input type="tel" id="tel" name="tel">
+      <br>
+      <label for="quantity">How many guests are in your party, including yourself?</label>
+      <select name="quantity" id="quantity" onchange="quantityChange()">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      
+      <div id="addlGuestDetails">
+      
+      </div>
+      
+      <br>
+      
+      <label for="diet">Does anyone in your party have dietary restrictions?</label>
+      <input type="radio" id="diet" name="diet" value="yes" onclick="dietDetailsFn(1)"> Yes
+      <input type="radio" id="diet" name="diet" value="no" onclick="dietDetailsFn(0)"> No
+      
+      <div id="dietDetailsDiv" style="display:none">
+        <br>
+        <label for="dietDetails">Please describe: </label>
+        <textarea id="dietDetails" name="dietDetails"></textarea>
+      </div>
+      
+    </div>
+    <br>
     <input type="submit" value="Submit!">
 
 </form>
-</div>
-
-<div id="form1">
-<!-- Dynamic Form Div -->
-</div>
-
-{% include search.html %}
-
-<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | absolute_url }}">via RSS</a></p>
-
-<div class="post-list">
-  {% for post in site.posts %}
-    {% assign currentdate = post.date | date: "%Y" %}
-    {% if currentdate != date %}
-      <h2 id="y{{ currentdate }}" class="year">{{ currentdate }}</h2>
-      {% assign date = currentdate %}
-    {% endif %}
-
-    <div class="post-block">
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-      <span class="post-meta" title="{{ post.date | date: "%b %-d Y" }}">{{ post.date | date: "%b %-d" }} <span class="meta-year">{{ currentdate }}</span></span>
-      {% if post.description %}<p class="post-subtitle">{{ post.description }}</p>{% endif %}
-    </div>
-  {% endfor %}
-</div>

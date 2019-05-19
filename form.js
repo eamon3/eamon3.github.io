@@ -37,7 +37,7 @@
           else if (quan < quantityComing) {
           if (quan == 1 && quantityComing != 1) {
             	addlGuestDiv.removeChild(listNames);
-              addlGuestDiv.removeChild(listNamesBreak);
+              //addlGuestDiv.removeChild(listNamesBreak);
             }
           	while (quan < quantityComing) {
             	console.log("while loop");

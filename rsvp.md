@@ -11,20 +11,20 @@ title: RSVP
     <div id="BasicInfo">
       <label for="name">Your Name</label>
       <input type="text" id="name" name="name">
-      <br>
+      <!--<br>-->
       <label for="coming">Will you/your party be able to attend?</label>
       <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)"> Yes! 
       <input type="radio" name="coming" id="coming" value="no" onclick="partyComing(0)"> No.
-      <br><br>
+      <!--<br><br>-->
       </div>
     
     <div id="additionalDetails" style="display:none">
       <label for="email">Email Address</label>
       <input type="email" id="email" name="email">
-      <br>
+      <!--<br>-->
       <label for="tel">Phone Number</label>
       <input type="tel" id="tel" name="tel">
-      <br>
+      <!--<br>-->
       <label for="quantity">How many guests are in your party, including yourself?</label>
       <select name="quantity" id="quantity" onchange="quantityChange()">
         <option value="1">1</option>
@@ -38,20 +38,20 @@ title: RSVP
       
       </div>
       
-      <br>
+      <!--<br>-->
       
       <label for="diet">Does anyone in your party have dietary restrictions?</label>
       <input type="radio" id="diet" name="diet" value="yes" onclick="dietDetailsFn(1)"> Yes
       <input type="radio" id="diet" name="diet" value="no" onclick="dietDetailsFn(0)"> No
       
       <div id="dietDetailsDiv" style="display:none">
-        <br>
+        <!--<br>-->
         <label for="dietDetails">Please describe: </label>
         <textarea id="dietDetails" name="dietDetails"></textarea>
       </div>
       
     </div>
-    <br>
+    <!--<br>-->
     <input type="submit" value="Submit!">
 
 </form>

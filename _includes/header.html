@@ -3,11 +3,9 @@
   <nav class="container">
     <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
 
-    <a href="{{ '/details/' | relative_url }}" {% if current[1] == 'projects' %}class="active"{% endif %}>Details</a>
-    <a href="{{ '/publications/' | relative_url }}" {% if current[1] == 'publications' %}class="active"{% endif %}>Publications</a>
-    <a href="{{ '/talks/' | relative_url }}" {% if current[1] == 'talks' %}class="active"{% endif %}>Talks</a>
+    <a href="{{ '/weddingDetails/' | relative_url }}" {% if current[1] == 'weddingDetails' %}class="active"{% endif %}>Wedding Details</a>
+    <a href="{{ '/photos/' | relative_url }}" {% if current[1] == 'photos' %}class="active"{% endif %}>Photos</a>
     <a href="{{ '/rsvp/' | relative_url }}" {% if current[1] == 'rsvp' %}class="active"{% endif %}>RSVP</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact</a>
 
     <span class="external">
       <!--<a href="https://twitter.com/twitter.header"><i class="fab fa-twitter"></i> Twitter.header</a>-->

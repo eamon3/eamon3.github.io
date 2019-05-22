@@ -24,7 +24,7 @@ We're pleased to invite you to our wedding ceremony on August 24, 2019 in Seattl
 
 Please read through our site to learn more about our wedding. You can RSVP or contact us using the links above.
 
-Please RSVP by June 24.
+Please RSVP by June 30.
 </div>
 
 <div class="me" markdown="1">
@@ -34,5 +34,4 @@ Please RSVP by June 24.
 
 * Death Valley, CA
 * February 2019
-* The wedding will not be here.
 </div>

@@ -49,9 +49,8 @@ title: RSVP
         </select>
       
         <div id="addlGuestDetails">
+        </div>
       </p>
-      
-      </div>
       
       <p>      
         <label for="diet">Does anyone in your party have dietary restrictions?</label>
@@ -65,7 +64,7 @@ title: RSVP
         <div id="dietDetailsDiv" style="display:none">
           <label for="dietDetails">Please describe the restrictions: </label>
           <br>
-          <textarea id="dietDetails" name="dietDetails"></textarea>
+          <textarea id="dietDetails" name="dietDetails" rows="5" cols="33"></textarea>
         </div>
       </p>
       

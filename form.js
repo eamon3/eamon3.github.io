@@ -15,8 +15,8 @@
               if (quan > 1 && quantityComing == 1) {
               	listNamesBreak = document.createElement("br");
               	listNames = document.createTextNode("Please list the names of the other guests in your party:");
-                addlGuestDiv.appendChild(listNamesBreak);
-                addlGuestDiv.appendChild(listNames);
+                //addlGuestDiv.appendChild(listNamesBreak);
+                appendChild(listNames);
               }
             
 
@@ -27,6 +27,8 @@
               var addlGuestFieldName = "additionalGuest" + quantityComing;
               console.log(addlGuestFieldName);
               addlGuestName.name = addlGuestFieldName;
+              listNamesBreak = document.createElement("br");
+              addlGuestDiv.appendChild(listNamesBreak);
               addlGuestDiv.appendChild(addlGuestName);
               
   						quantityComing++;
@@ -41,6 +43,7 @@
             }
           	while (quan < quantityComing) {
             	console.log("while loop");
+              addlGuestDiv.removeChild(addlGuestDiv.lastChild);
               addlGuestDiv.removeChild(addlGuestDiv.lastChild);
 
               quantityComing--;

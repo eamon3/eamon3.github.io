@@ -18,45 +18,57 @@ title: RSVP
       <p>
         <label for="coming">Will you/your party be able to attend?</label>
         <br>
-        <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)"> Yes! 
-        <input type="radio" name="coming" id="coming" value="no" onclick="partyComing(0)"> No.
+        <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)"> Yes!
+        <br>
+        <input type="radio" name="coming" id="coming" value="no" onclick="partyComing(0)"> No
       </p>
       </div>
     
     <div id="additionalDetails" style="display:none">
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email">
-      <!--<br>-->
-      <label for="tel">Phone Number</label>
-      <input type="tel" id="tel" name="tel">
-      <!--<br>-->
-      <label for="quantity">How many guests are in your party, including yourself?</label>
-      <select name="quantity" id="quantity" onchange="quantityChange()">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-      </select>
+      <p>
+        <label for="email">Email Address</label>
+        <br>
+        <input type="email" id="email" name="email">
+      </p>
+
+      <p>
+        <label for="tel">Phone Number</label>
+        <br>
+        <input type="tel" id="tel" name="tel">
+      </p>
+
+      <p>
+        <label for="quantity">How many guests are in your party, including yourself?</label>
+        <br>
+        <select name="quantity" id="quantity" onchange="quantityChange()">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </p>
       
       <div id="addlGuestDetails">
       
       </div>
       
-      <!--<br>-->
+      <p>      
+        <label for="diet">Does anyone in your party have dietary restrictions?</label>
+        <br>
+        <input type="radio" id="diet" name="diet" value="yes" onclick="dietDetailsFn(1)"> Yes
+        <br>
+        <input type="radio" id="diet" name="diet" value="no" onclick="dietDetailsFn(0)"> No
       
-      <label for="diet">Does anyone in your party have dietary restrictions?</label>
-      <input type="radio" id="diet" name="diet" value="yes" onclick="dietDetailsFn(1)"> Yes
-      <input type="radio" id="diet" name="diet" value="no" onclick="dietDetailsFn(0)"> No
-      
-      <div id="dietDetailsDiv" style="display:none">
-        <!--<br>-->
-        <label for="dietDetails">Please describe: </label>
-        <textarea id="dietDetails" name="dietDetails"></textarea>
-      </div>
+        <br>
+        
+        <div id="dietDetailsDiv" style="display:none">
+          <label for="dietDetails">Please describe the restrictions: </label>
+          <textarea id="dietDetails" name="dietDetails"></textarea>
+        </div>
+      </p>
       
     </div>
-    <!--<br>-->
     <input type="submit" value="Submit!">
 
 </form>

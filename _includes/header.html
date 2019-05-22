@@ -3,6 +3,7 @@
   <nav class="container">
     <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
 
+    <a href="{{ '/photos/' | relative_url }}" {% if current[1] == 'photos' %}class="active"{% endif %}>Photos</a>
     <a href="{{ '/weddingDetails/' | relative_url }}" {% if current[1] == 'weddingDetails' %}class="active"{% endif %}>Wedding Details</a>
     <a href="{{ '/photos/' | relative_url }}" {% if current[1] == 'photos' %}class="active"{% endif %}>Photos</a>
     <a href="{{ '/rsvp/' | relative_url }}" {% if current[1] == 'rsvp' %}class="active"{% endif %}>RSVP</a>

@@ -16,9 +16,9 @@ When you visit the Site, we automatically collect certain information about your
 
 We collect Device Information using the following technologies:
 
-    - “Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit http://www.allaboutcookies.org.
-    - “Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
-    - “Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.
+  “Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit http://www.allaboutcookies.org.
+  “Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
+  “Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.
 
 Additionally, when you RSVP through the Site, we collect certain information from you, including your name, the names of your additional guests, dietary restrictions, email address, and phone number.  We refer to this information as "RSVP Information.”
 

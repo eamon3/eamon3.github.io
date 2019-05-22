@@ -29,7 +29,7 @@ The reception will be located at the picnic tables north of the ball fields, and
 
 <p>
 <h4>Attire</h4>
-Business/dressy casual attire is requested (no shorts or denim please) (slacks or khakis for men, slacks or skirts for women). Please note that the wedding will be outdoors and will involve walking on grass.
+Business/dressy casual attire is requested (no shorts or denim please). Please note that the wedding will be outdoors and will involve walking on grass.
 </p>
 
 <p>

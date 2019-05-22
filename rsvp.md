@@ -18,7 +18,7 @@ title: RSVP
 
 <script src="/form.js"></script>
 
-<form class="pure-form-stacked" action="https://getform.io/f/0cff5cfd-5ab5-4d3c-8f95-50be1ec60926" method="POST">
+<form action="https://getform.io/f/0cff5cfd-5ab5-4d3c-8f95-50be1ec60926" method="POST" onsubmit="alert('Your RSVP has been received. Thank you.');">
     <div id="BasicInfo">
       <p>
         <label for="name">Your Name</label>

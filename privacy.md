@@ -4,6 +4,18 @@ permalink: /privacy/
 title: Privacy Policy
 ---
 
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140670048-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140670048-1');
+  </script>
+</head>
+
 Privacy Policy
 
 Effective Date: 05/21/2019
@@ -14,7 +26,7 @@ This Privacy Policy describes how your personal information is collected, used, 
 
 PERSONAL INFORMATION WE COLLECT
 
-When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as “Device Information.”
+When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as “Device Information.” We may also collect information about you from third parties, using tools like Google Display Network Impression Reporting and Google Analytics Demographics and Interest Reporting.
 
 We collect Device Information using the following technologies:
 

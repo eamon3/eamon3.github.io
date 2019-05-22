@@ -48,8 +48,8 @@ title: RSVP
           <option value="5">5</option>
         </select>
       
-        <div id="addlGuestDetails">
-        </div>
+        <span id="addlGuestDetails">
+        </span>
       </p>
       
       <p>      

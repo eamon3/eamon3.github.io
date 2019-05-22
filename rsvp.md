@@ -47,9 +47,9 @@ title: RSVP
           <option value="4">4</option>
           <option value="5">5</option>
         </select>
-      </p>
       
-      <div id="addlGuestDetails">
+        <div id="addlGuestDetails">
+      </p>
       
       </div>
       
@@ -64,6 +64,7 @@ title: RSVP
         
         <div id="dietDetailsDiv" style="display:none">
           <label for="dietDetails">Please describe the restrictions: </label>
+          <br>
           <textarea id="dietDetails" name="dietDetails"></textarea>
         </div>
       </p>

@@ -13,9 +13,9 @@
           if (quan > quantityComing) {
             while (quan > quantityComing) {
               if (quan > 1 && quantityComing == 1) {
-              	listNamesBreak = document.createElement("br");
+              	//listNamesBreak = document.createElement("br");
               	listNames = document.createTextNode("Please list the names of the other guests in your party:");
-                //addlGuestDiv.appendChild(listNamesBreak);
+                addlGuestDiv.appendChild(listNamesBreak);
                 appendChild(listNames);
               }
             

@@ -2,7 +2,7 @@
 title: Jennifer and Eamon
 email: info@jenniferandeamon.com
 description: > # this means to ignore newlines until "baseurl:"
-  Feel free to contact Jennifer or Eamon if you have any questions.<br><a href="privacy/">Privacy Policy</a>
+  Feel free to contact Jennifer or Eamon if you have any questions.<br><a href="https://www.jenniferandeamon.com/privacy/">Privacy Policy</a>
 baseurl: "" # the subpath of your site, e.g. /rsvp
 url: "https://www.jenniferandeamon.com" # the base hostname & protocol for your site
 production_url: "https://www.jenniferandeamon.com"

@@ -16,7 +16,7 @@
               	listNamesBreak = document.createElement("br");
               	listNames = document.createTextNode("Please list the names of the other guests in your party:");
                 addlGuestDiv.appendChild(listNamesBreak);
-                appendChild(listNames);
+                addlGuestDiv.appendChild(listNames);
               }
             
 

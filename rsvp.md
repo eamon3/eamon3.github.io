@@ -9,13 +9,18 @@ title: RSVP
 
 <form class="pure-form-stacked" action="https://getform.io/f/0cff5cfd-5ab5-4d3c-8f95-50be1ec60926" method="POST">
     <div id="BasicInfo">
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="name">
-      <!--<br>-->
-      <label for="coming">Will you/your party be able to attend?</label>
-      <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)"> Yes! 
-      <input type="radio" name="coming" id="coming" value="no" onclick="partyComing(0)"> No.
-      <!--<br><br>-->
+      <p>
+        <label for="name">Your Name</label>
+        <br>
+        <input type="text" id="name" name="name">
+      </p>
+      
+      <p>
+        <label for="coming">Will you/your party be able to attend?</label>
+        <br>
+        <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)"> Yes! 
+        <input type="radio" name="coming" id="coming" value="no" onclick="partyComing(0)"> No.
+      </p>
       </div>
     
     <div id="additionalDetails" style="display:none">

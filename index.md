@@ -22,7 +22,7 @@ class: home
 <div class="intro" markdown="1">
 We're pleased to invite you to our wedding ceremony on August 24, 2019 in Seattle, Washington.
 
-Please read through our site to learn more about our wedding. You can RSVP or contact us using the links above.
+Please read through our site to learn more about our wedding. You can RSVP using the link above.
 
 Please RSVP by June 30.
 </div>

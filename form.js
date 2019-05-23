@@ -62,6 +62,8 @@
               
               document.getElementById('additionalDetails').style.display = 'block';
               
+              document.getElementById("diet").required = true;
+              
             }
             else if (coming == 0 && additionalDetailsPresent == 1) {
             	additionalDetailsPresent = 0;
@@ -74,6 +76,8 @@
               document.getElementById('tel').value = "";
               document.getElementById('quantity').value = 1;
               quantityChange();
+              
+              document.getElementById("diet").required = false;
               
               document.getElementById('additionalDetails').style.display = 'none';
             

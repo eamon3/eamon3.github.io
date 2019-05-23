@@ -27,7 +27,7 @@ title: RSVP
       </p>
       
       <p>
-        <label for="coming">Will you/your party be able to attend?</label>
+        Will you/your party be able to attend?
         <br>
         <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)" required> Yes!
         <br>
@@ -64,7 +64,7 @@ title: RSVP
       </p>
       
       <p>      
-        <label for="diet">Does anyone in your party have dietary restrictions?</label>
+        Does anyone in your party have dietary restrictions?
         <br>
         <input type="radio" id="diet" name="diet" value="yes" onclick="dietDetailsFn(1)"> Yes
         <br>

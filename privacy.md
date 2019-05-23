@@ -36,7 +36,7 @@ We collect Device Information using the following technologies:
 
 Additionally, when you RSVP through the Site, we collect certain information from you, including your name, the names of your additional guests, dietary restrictions, email address, and phone number.  We refer to this information as "RSVP Information.”
 
-When we talk about “Personal Information” in this Privacy Policy, we are talking both about Device Information and Order Information.
+When we talk about “Personal Information” in this Privacy Policy, we are talking both about Device Information and RSVP Information.
 
 HOW DO WE USE YOUR PERSONAL INFORMATION?
 

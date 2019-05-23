@@ -23,15 +23,15 @@ title: RSVP
       <p>
         <label for="name">Your Name</label>
         <br>
-        <input type="text" id="name" name="name">
+        <input type="text" id="name" name="name" required>
       </p>
       
       <p>
         <label for="coming">Will you/your party be able to attend?</label>
         <br>
-        <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)"> Yes!
+        <input type="radio" id="coming" name="coming" value="yes" onclick="partyComing(1)" required> Yes!
         <br>
-        <input type="radio" name="coming" id="coming" value="no" onclick="partyComing(0)"> No
+        <input type="radio" name="coming" id="coming" value="no" onclick="partyComing(0)" required> No
       </p>
       </div>
     

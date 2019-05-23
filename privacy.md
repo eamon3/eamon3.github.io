@@ -43,7 +43,7 @@ HOW DO WE USE YOUR PERSONAL INFORMATION?
 We use the RSVP Information that we collect generally to plan for our wedding.  Additionally, we use this RSVP Information to:<br>
 Communicate with you;<br>
 Screen our RSVPs for potential risk or fraud; and<br>
-Learn more about the guests and invitees.
+Learn more about our guests and invitees.
 
 We use the Device Information that we collect to help us screen for potential risk and fraud (in particular, your IP address), and more generally to improve and optimize our Site (for example, by generating analytics about how our invitees/guests browse and interact with the Site, and to assess the success of our marketing campaigns).
 

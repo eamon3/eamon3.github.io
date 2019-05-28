@@ -22,7 +22,7 @@ class: pubs
 </p>
 <p>
 <h4>Venue</h4>
-Our wedding will take place outdoors, in Seattle's Lincoln Park. The ceremony is located in the meadow southwest of the north ballfields (see our map here). The meadow is a flat, 300 yard walk from the parking lot.
+Our wedding will take place outdoors, in Seattle's Lincoln Park. The ceremony is located in the meadow southwest of the north ballfields (check back closer to the event for a more detailed map). The meadow is a flat, 300 yard walk from the parking lot.
 </p>
 <p>
 Parking is available in the park's lot, and there is ample street parking on Fauntleroy Way. Parking is permitted in the ferry waiting lane after 3 PM on Saturdays. The park is also served by multiple bus routes, including the 116, 118, 119, and the <a href="https://kingcounty.gov/depts/transportation/metro/schedules-maps/c-line.aspx" target="_blank">RapidRide C line</a>.

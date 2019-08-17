@@ -32,8 +32,8 @@ Parking is available in the park's lot, and there is ample street parking on Fau
 <h4>Schedule</h4>
 <i>Subject to change.</i><br>
 5:30 PM - Arrive at Lincoln Park<br>
-6:15 PM - Ceremony begins<br>
-6:45 PM - Dinner/Reception at north picnic tables
+6:00 PM - Ceremony begins<br>
+7:00 PM - Dinner/Reception at north picnic tables
 </p>
 
 <p>
